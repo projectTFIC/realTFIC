@@ -31,10 +31,7 @@
 	</properties>
 	<dependencies>
 	
-			<!-- 
-		[ 1. jasper 라이브러리 추가 ]
-		jsp 컴파일러 기능을 제공하는 라이브러리 추가함
-		-->
+		<!-- [ jasper 라이브러리 추가 ] -->
 		<dependency>
          	<groupId>org.apache.tomcat.embed</groupId>
          	<artifactId>tomcat-embed-jasper</artifactId>
@@ -64,7 +61,7 @@
         </dependency>
 
 		
-		<!-- [ 2. MyBatis 라이브러리 ] -->
+		<!-- [ MyBatis 라이브러리 ] -->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -97,6 +94,14 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+		
+		
+		<!-- [ 웹캠 라이브러리 ] -->
+		<dependency>
+		    <groupId>com.github.sarxos</groupId>
+		    <artifactId>webcam-capture</artifactId>
+		    <version>0.3.12</version>
 		</dependency>
 
 		<dependency>

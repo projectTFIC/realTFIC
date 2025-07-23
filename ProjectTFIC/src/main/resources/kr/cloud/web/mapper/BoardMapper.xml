@@ -7,7 +7,7 @@
 	id 는 실행하고 싶은 Mapper.java 의 메서드 이름과 동일하게 작성
 	-->
 	<select id = "selectDevicesAll" resultType = "kr.cloud.web.entity.Devices">
-		SELECT * FROM DEVICES ORDER BY device_id DESC
+		SELECT * FROM devices ORDER BY device_id DESC
 	</select>
 
 
